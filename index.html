@@ -485,16 +485,18 @@
             </li>
           </ul>
         </div>
-
-        <form class="subscribe-form">
-          <div class="subscribe-form-wrapper">
+        <div class="subscribe-form-wrapper">
+          <form class="subscribe-form">
             <p class="subscribe-title">Subscribe</p>
-            <label class="subscribe-form-field-label" for="user-email"></label>
+            <label
+              class="subscribe-form-field-label"
+              for="user-email-subscribe"
+            ></label>
             <div class="subscribe-input-btn-wrapper">
               <input
                 class="subscribe-form-input"
                 type="email"
-                id="user-email"
+                id="user-email-subscribe"
                 name="user-subscribe-email"
                 placeholder="E-mail"
               />
@@ -507,8 +509,8 @@
                 </button>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -524,13 +526,13 @@
         <p class="form-slogan">Leave your contacts and we will call you back</p>
         <form class="contacts-form">
           <div class="form-field-wrapper">
-            <label class="form-field-label" for="username">Name</label>
+            <label class="form-field-label" for="user-name">Name</label>
             <div class="form-input-wrapper">
               <input
                 class="form-input"
                 type="text"
-                id="username"
-                name="username"
+                id="user-name"
+                name="user-name"
               />
               <svg class="form-field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -581,14 +583,14 @@
 
           <div class="form-checkbox-wrapper">
             <input
-              class="form-policy-checkbox is-hidden"
+              class="form-policy-checkbox visually-hidden"
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="form-policy-label" for="policy">
+            <label class="form-policy-label" for="user-privacy">
               <span class="form-policy-own-checkbox">
                 <svg class="form-own-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
