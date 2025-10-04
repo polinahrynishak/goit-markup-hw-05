@@ -518,6 +518,7 @@ input {
 .footer-social-links {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .footer-social-links-item {
@@ -545,6 +546,65 @@ input {
 .footer-soc-icon {
   fill: #f4f4fd;
 }
+
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.subscribe-input-btn-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.subscribe-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-form-send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+}
+
+.subscribe-form-icon {
+  fill: #fff;
+}
+
 /* ============ FOOTER  STYLES /* ============ */
 
 /* ============ BACKDROP WITH MODAL STYLES ============== */
